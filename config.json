@@ -1,0 +1,17 @@
+{
+    "es": {
+        "config": {
+            "host": "[set elastic host here]",
+            "requestTimeout": 2000000000,
+            "maxSockets": 10,
+            "minSockets": 10
+        },
+        "index": "[set elasticsearch index here]",
+        "type": "[set elasticsearch type here]",
+        "field": "query"
+    },
+    "batchSize": 5000,
+    "queueConcurrency": 1,
+    "onSchedule": true,
+    "tagDocsAfterDate" : ""
+}
